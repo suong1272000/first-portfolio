@@ -1,0 +1,39 @@
+header {
+  width: 100vw;
+  height: 80px;
+  position: fixed;
+  z-index: 1;
+}
+header > .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+header > .wrapper .navbar {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+header > .wrapper .hamburger {
+  display: none;
+}
+@media screen and (max-width: 1024px) {
+  header > .wrapper {
+    max-width: 768px;
+  }
+}
+@media screen and (max-width: 768px) {
+  header > .wrapper {
+    width: 80%;
+  }
+  header > .wrapper .navbar {
+    display: none;
+  }
+  header > .wrapper .hamburger {
+    display: block;
+  }
+}/*# sourceMappingURL=header.css.map */
