@@ -1,36 +1,58 @@
 header{
     width: 100vw;
-    height: 80px;
+    height: 68px;
     position: fixed;
     z-index: 1;
+    background-color: #111;
     >.wrapper{
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 100%;
         width: 100%;
-        max-width: 1024px;
+        max-width: 1600px;
         margin: 0 auto;
-        .logoBox{}
-        .navbar{
+        .logoBox{
             display: flex;
-            justify-content: center;
-            gap: 10px;
+            align-items: center;
+            padding: 20px 20px;
+            img{
+                width: 80%;
+            }
         }
-        .hamburger{
-            display: none;
+        .mainNavbar{
+            display: flex;
+            gap: 50px;
+            margin-right: 680px;
+            li{
+                a{
+                    color: #777;
+                    font-weight: 600;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
         }
-        @media screen and (max-width:1024px){
-            max-width: 768px;
+        .subNavbar{
+            display: flex;
+            gap: 26px;
+            li{
+                a{
+                    color: #777;
+                    font-weight: 600;
+                    &:hover{
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .iconBox{
+            display: flex;
+            gap: 26px;
+            color: #fff;
         }
         @media screen and (max-width:768px) {
-            width: 80%;
-            .navbar{
-                display: none;
-            }
-            .hamburger{
-                display: block;
-            }
         }
     }
 }

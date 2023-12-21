@@ -1,8 +1,9 @@
 header {
   width: 100vw;
-  height: 80px;
+  height: 68px;
   position: fixed;
   z-index: 1;
+  background-color: #111;
 }
 header > .wrapper {
   display: flex;
@@ -10,30 +11,42 @@ header > .wrapper {
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 1024px;
+  max-width: 1600px;
   margin: 0 auto;
 }
-header > .wrapper .navbar {
+header > .wrapper .logoBox {
   display: flex;
-  justify-content: center;
-  gap: 10px;
+  align-items: center;
+  padding: 20px 20px;
 }
-header > .wrapper .hamburger {
-  display: none;
+header > .wrapper .logoBox img {
+  width: 80%;
 }
-@media screen and (max-width: 1024px) {
-  header > .wrapper {
-    max-width: 768px;
-  }
+header > .wrapper .mainNavbar {
+  display: flex;
+  gap: 50px;
+  margin-right: 680px;
 }
-@media screen and (max-width: 768px) {
-  header > .wrapper {
-    width: 80%;
-  }
-  header > .wrapper .navbar {
-    display: none;
-  }
-  header > .wrapper .hamburger {
-    display: block;
-  }
+header > .wrapper .mainNavbar li a {
+  color: #777;
+  font-weight: 600;
+}
+header > .wrapper .mainNavbar li a:hover {
+  color: #fff;
+}
+header > .wrapper .subNavbar {
+  display: flex;
+  gap: 26px;
+}
+header > .wrapper .subNavbar li a {
+  color: #777;
+  font-weight: 600;
+}
+header > .wrapper .subNavbar li a:hover {
+  color: #fff;
+}
+header > .wrapper .iconBox {
+  display: flex;
+  gap: 26px;
+  color: #fff;
 }/*# sourceMappingURL=header.css.map */
