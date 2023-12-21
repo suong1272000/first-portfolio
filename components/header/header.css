@@ -4,8 +4,9 @@ header {
   position: fixed;
   z-index: 1;
   background-color: #111;
+  font-family: "SUITE-Regular";
 }
-header > .wrapper {
+header > .nav-wrap {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,39 +15,43 @@ header > .wrapper {
   max-width: 1600px;
   margin: 0 auto;
 }
-header > .wrapper .logoBox {
+header > .nav-wrap .logo-box {
   display: flex;
   align-items: center;
   padding: 20px 20px;
 }
-header > .wrapper .logoBox img {
-  width: 80%;
+header > .nav-wrap .logo-box img {
+  width: 48px;
 }
-header > .wrapper .mainNavbar {
+header > .nav-wrap .nav-left-list {
   display: flex;
   gap: 50px;
   margin-right: 680px;
 }
-header > .wrapper .mainNavbar li a {
+header > .nav-wrap .nav-left-list li a {
   color: #777;
+  font-size: 16px;
   font-weight: 600;
 }
-header > .wrapper .mainNavbar li a:hover {
+header > .nav-wrap .nav-left-list li a:hover {
   color: #fff;
 }
-header > .wrapper .subNavbar {
+header > .nav-wrap .nav-right-list {
   display: flex;
   gap: 26px;
 }
-header > .wrapper .subNavbar li a {
+header > .nav-wrap .nav-right-list li a {
   color: #777;
+  font-size: 15px;
   font-weight: 600;
 }
-header > .wrapper .subNavbar li a:hover {
+header > .nav-wrap .nav-right-list li a:hover {
   color: #fff;
 }
-header > .wrapper .iconBox {
+header > .nav-wrap .icon-box {
   display: flex;
-  gap: 26px;
+  gap: 40px;
+  font-size: 1.2rem;
   color: #fff;
+  cursor: pointer;
 }/*# sourceMappingURL=header.css.map */
