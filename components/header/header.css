@@ -12,13 +12,13 @@ header > .nav-wrap {
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 1600px;
+  max-width: 1024px;
   margin: 0 auto;
 }
 header > .nav-wrap .logo-box {
   display: flex;
   align-items: center;
-  padding: 20px 20px;
+  padding-left: 15px;
 }
 header > .nav-wrap .logo-box img {
   width: 48px;
@@ -26,11 +26,10 @@ header > .nav-wrap .logo-box img {
 header > .nav-wrap .nav-left-list {
   display: flex;
   gap: 50px;
-  margin-right: 680px;
 }
 header > .nav-wrap .nav-left-list li a {
   color: #777;
-  font-size: 16px;
+  font-size: 0.9vw;
   font-weight: 600;
 }
 header > .nav-wrap .nav-left-list li a:hover {
@@ -42,7 +41,7 @@ header > .nav-wrap .nav-right-list {
 }
 header > .nav-wrap .nav-right-list li a {
   color: #777;
-  font-size: 15px;
+  font-size: 0.8vw;
   font-weight: 600;
 }
 header > .nav-wrap .nav-right-list li a:hover {
@@ -54,4 +53,13 @@ header > .nav-wrap .icon-box {
   font-size: 1.2rem;
   color: #fff;
   cursor: pointer;
+  padding-right: 15px;
+}
+@media screen and (max-width: 768px) {
+  header > .nav-wrap .nav-left-list {
+    display: none;
+  }
+  header > .nav-wrap .nav-right-list {
+    display: none;
+  }
 }/*# sourceMappingURL=header.css.map */

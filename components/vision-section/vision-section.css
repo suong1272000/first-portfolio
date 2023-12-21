@@ -1,0 +1,87 @@
+.vision-section {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 190%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.vision-section .text-wrap {
+  font-family: "TheJamsil5";
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  top: 8%;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+}
+.vision-section .text-wrap .text-box .text-box__text p {
+  color: #111;
+  font-size: 0.9vw;
+}
+.vision-section .text-wrap .text-box .text-box__text h2 {
+  color: #111;
+  font-size: 2.5vw;
+  font-weight: 700;
+  letter-spacing: -2.5px;
+}
+.vision-section .text-wrap .text-box .text-box__text .sub-title {
+  font-family: "SUITE-Regular";
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.vision-section .text-wrap .text-box .text-box__button {
+  display: flex;
+  margin: 70px 0;
+}
+.vision-section .text-wrap .text-box .text-box__button button {
+  font-family: "SUITE-Regular";
+  border: 2px solid #111;
+  border-radius: 4px;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  color: #111111;
+  font-size: 18px;
+  padding: 16px 60px;
+}
+.vision-section .text-wrap .text-box .text-box__button button:hover {
+  background-color: #111;
+  color: #fff;
+  cursor: pointer;
+}
+.vision-section .text-wrap .text-box .text-box__image {
+  width: 100%;
+}
+.vision-section .text-wrap .video-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vision-section .text-wrap .video-box .video-box__text {
+  display: flex;
+  flex-direction: column;
+}
+.vision-section .text-wrap .video-box .video-box__text h2 {
+  color: #111;
+  font-size: 2.5vw;
+  font-weight: 700;
+}
+.vision-section .text-wrap .video-box .video-box__text p {
+  color: #111;
+  font-size: 0.9vw;
+  margin-top: 14px;
+}
+.vision-section .text-wrap .video-box .video-box__iframe {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+.vision-section .text-wrap .video-box .video-box__iframe iframe {
+  width: 100%;
+  height: 420px;
+}/*# sourceMappingURL=vision-section.css.map */
