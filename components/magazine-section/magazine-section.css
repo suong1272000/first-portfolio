@@ -1,0 +1,103 @@
+.magazine-section {
+  scroll-snap-align: start;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.magazine-section .textwrap {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 150px;
+}
+.magazine-section .textwrap .text-box .text-box__text {
+  padding: 10px 20px;
+}
+.magazine-section .textwrap .text-box .text-box__text h2 {
+  font-family: "TheJamsil5";
+  color: #111;
+  font-size: 2.5vw;
+}
+.magazine-section .gridwrap {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.magazine-section .gridwrap .grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 30px 40px;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box {
+  display: flex;
+  flex-direction: column;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__image-eqs-suv {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/magazine_eqs-suv.avif);
+  background-size: cover;
+  background-position: center;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__image-maybach {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/magazine_maybach.avif);
+  background-size: cover;
+  background-position: center;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__image-future {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../images/magazine_future_of_work_.avif);
+  background-size: cover;
+  background-position: center;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text {
+  font-family: "TheJamsil5";
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: 78%;
+  opacity: 0;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text p {
+  color: #fff;
+  font-size: 0.7vw;
+  padding: 10px 20px;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text .magazin-title {
+  font-size: 1vw;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box:hover .magazin-box__text {
+  opacity: 1;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box:hover .magazin-box__image-eqs-suv {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/magazine_eqs-suv.avif);
+  background-size: cover;
+  background-position: center;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box:hover .magazin-box__image-maybach {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/magazine_maybach.avif);
+  background-size: cover;
+  background-position: center;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box:hover .magazin-box__image-future {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/magazine_future_of_work_.avif);
+  background-size: cover;
+  background-position: center;
+}/*# sourceMappingURL=magazine-section.css.map */

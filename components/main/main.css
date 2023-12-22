@@ -8,8 +8,4 @@ main {
 }
 main::-webkit-scrollbar {
   display: none;
-}
-
-.scroll {
-  overflow: hidden;
 }/*# sourceMappingURL=main.css.map */

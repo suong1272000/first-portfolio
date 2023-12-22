@@ -1,0 +1,115 @@
+.magazine-section{
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .textwrap{
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 150px;
+        .text-box{
+            .text-box__text{
+                padding: 10px 20px;
+                h2{
+                    font-family: 'TheJamsil5';
+                    color: #111;
+                    font-size: 2.5vw;
+                }
+            }           
+        }
+    }
+    .gridwrap{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        .grid-box{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            padding: 30px 40px;
+            .grid-box__magazine-box{
+                display: flex;
+                flex-direction: column;
+                .magazin-box__image-eqs-suv{
+                    width: 100%;
+                    height: 100%;
+                    background-image:
+                    url(../../images/magazine_eqs-suv.avif);
+                    background-size: cover;
+                    background-position: center;
+                }
+                .magazin-box__image-maybach{
+                    width: 100%;
+                    height: 100%;
+                    background-image:
+                    url(../../images/magazine_maybach.avif);
+                    background-size: cover;
+                    background-position: center;
+                }
+                .magazin-box__image-future{
+                    width: 100%;
+                    height: 100%;
+                    background-image:
+                    url(../../images/magazine_future_of_work_.avif);
+                    background-size: cover;
+                    background-position: center;
+                }
+
+                .magazin-box__text{
+                    font-family: 'TheJamsil5';
+                    width: 100%;
+                    height: 100%;
+                    position: relative;
+                    top: 78%;
+                    opacity: 0;
+                    p{
+                        color: #fff;
+                        font-size: 0.7vw;
+                        padding: 10px 20px;
+                    }
+                    .magazin-title{
+                        font-size: 1vw;
+                    }
+                }
+                &:hover{
+                    .magazin-box__text{
+                        opacity: 1;
+                    }
+                    .magazin-box__image-eqs-suv{
+                        width: 100%;
+                        height: 100%;
+                        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url(../../images/magazine_eqs-suv.avif);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .magazin-box__image-maybach{
+                        width: 100%;
+                        height: 100%;
+                        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url(../../images/magazine_maybach.avif);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    .magazin-box__image-future{
+                        width: 100%;
+                        height: 100%;
+                        background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                        url(../../images/magazine_future_of_work_.avif);
+                        background-size: cover;
+                        background-position: center;
+                    }
+                }
+            }
+                
+        }
+    }
+}

@@ -26,13 +26,6 @@
   font-weight: 700;
   letter-spacing: -2.5px;
 }
-.vision-section .text-wrap .text-box .text-box__text .sub-title {
-  font-family: "SUITE-Regular";
-  color: #111;
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
 .vision-section .text-wrap .text-box .text-box__button {
   display: flex;
   margin: 70px 0;
@@ -84,4 +77,12 @@
 .vision-section .text-wrap .video-box .video-box__iframe iframe {
   width: 100%;
   height: 420px;
+}
+
+.sub-title {
+  font-family: "SUITE-Regular";
+  color: #111;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
 }/*# sourceMappingURL=vision-section.css.map */
