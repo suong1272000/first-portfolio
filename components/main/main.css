@@ -4,7 +4,7 @@ main {
   overflow: auto;
   position: relative;
   top: 68px;
-  background-color: #f5f5f5;
+  background-color: var(--color-background);
 }
 main::-webkit-scrollbar {
   display: none;

@@ -1,1 +1,55 @@
-/*# sourceMappingURL=footer.css.map */
+footer {
+  scroll-snap-align: start;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+  width: 100%;
+  height: 410px;
+  background-color: var(--color-black);
+  font-family: "SUITE-Regular";
+  display: flex;
+}
+footer .nav-wrap {
+  color: var(--color-white);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 70px 50px;
+  gap: 40px;
+}
+footer .nav-wrap .logo-box {
+  width: 100%;
+  display: flex;
+}
+footer .nav-wrap .logo-box img {
+  width: 48px;
+}
+footer .nav-wrap .nav-box {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer .nav-wrap .nav-box .list-box {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+footer .nav-wrap .nav-box .list-box .nav-left-list {
+  font-size: 0.9vw;
+  font-weight: 700;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+footer .nav-wrap .nav-box .list-box .nav-right-list {
+  font-size: 0.8vw;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  color: var(--color-gray);
+}
+footer .nav-wrap .nav-box .icon-box {
+  display: flex;
+  gap: 24px;
+  font-size: var(--icon-size);
+}/*# sourceMappingURL=footer.css.map */

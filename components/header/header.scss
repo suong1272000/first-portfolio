@@ -3,7 +3,7 @@ header{
     height: 68px;
     position: fixed;
     z-index: 10;
-    background-color: #111;
+    background-color: var(--color-black);
     font-family: 'SUITE-Regular';
     >.nav-wrap{
         display: flex;
@@ -26,11 +26,11 @@ header{
             gap: 50px;
             li{
                 a{
-                    color: #777;
-                    font-size: 18px;
+                    color: var(--color-gray);
+                    font-size: var( --font-large);
                     font-weight: 600;
                     &:hover{
-                        color: #fff;
+                        color: var(--color-white);
                     }
                 }
             }
@@ -40,11 +40,11 @@ header{
             gap: 26px;
             li{
                 a{
-                    color: #777;
-                    font-size: 16px;
+                    color: var(--color-gray);
+                    font-size: var(--font-medium);
                     font-weight: 600;
                     &:hover{
-                        color: #fff;
+                        color: var(--color-white);
                     }
                 }
             }
@@ -52,8 +52,8 @@ header{
         .icon-box{
             display: flex;
             gap: 40px;
-            font-size: 1.2rem;
-            color: #fff;
+            font-size: var( --icon-size);
+            color: var(--color-white);
             cursor: pointer;
             padding-right: 25px;
         }

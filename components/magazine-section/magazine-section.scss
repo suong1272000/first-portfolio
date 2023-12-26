@@ -12,11 +12,13 @@
         text-align: center;
         margin-top: 150px;
         .text-box{
+            display: flex;
+            align-items: center;
             .text-box__text{
                 padding: 10px 20px;
                 h2{
                     font-family: 'TheJamsil5';
-                    color: #111;
+                    color: var(--color-black);
                     font-size: 2.5vw;
                 }
             }           
@@ -67,11 +69,14 @@
                     font-family: 'TheJamsil5';
                     width: 100%;
                     height: 100%;
-                    position: relative;
-                    top: 78%;
                     opacity: 0;
+                    display: flex;
+                    align-items: flex-start;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    padding-bottom: 24px;
                     p{
-                        color: #fff;
+                        color: var(--color-white);
                         font-size: 0.7vw;
                         padding: 10px 20px;
                     }
@@ -80,6 +85,7 @@
                     }
                 }
                 &:hover{
+                    overflow: hidden;
                     .magazin-box__text{
                         opacity: 1;
                     }

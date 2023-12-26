@@ -19,26 +19,26 @@
   font-size: 3.5vw;
   font-weight: 500;
   letter-spacing: 5px;
-  color: #fff;
+  color: var(--color-white);
 }
 .defining-section .text-wrap .text-wrap__text p {
   font-size: 2.2vw;
-  color: #fff;
+  color: var(--color-white);
 }
 .defining-section .text-wrap .text-wrap__button {
   margin-top: 50px;
 }
 .defining-section .text-wrap .text-wrap__button button {
   font-family: "SUITE-Regular";
-  border: 2px solid #fff;
+  border: 2px solid var(--color-white);
   border-radius: 4px;
   background-color: transparent;
-  color: #fff;
+  color: var(--color-white);
   font-size: 20px;
   padding: 16px 60px;
 }
 .defining-section .text-wrap .text-wrap__button button:hover {
-  background-color: #fff;
-  color: #111;
+  background-color: var(--color-white);
+  color: var(--color-black);
   cursor: pointer;
 }/*# sourceMappingURL=defining-section.css.map */

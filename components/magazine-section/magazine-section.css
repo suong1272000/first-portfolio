@@ -13,12 +13,16 @@
   text-align: center;
   margin-top: 150px;
 }
+.magazine-section .textwrap .text-box {
+  display: flex;
+  align-items: center;
+}
 .magazine-section .textwrap .text-box .text-box__text {
   padding: 10px 20px;
 }
 .magazine-section .textwrap .text-box .text-box__text h2 {
   font-family: "TheJamsil5";
-  color: #111;
+  color: var(--color-black);
   font-size: 2.5vw;
 }
 .magazine-section .gridwrap {
@@ -65,17 +69,23 @@
   font-family: "TheJamsil5";
   width: 100%;
   height: 100%;
-  position: relative;
-  top: 78%;
   opacity: 0;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 24px;
 }
 .magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text p {
-  color: #fff;
+  color: var(--color-white);
   font-size: 0.7vw;
   padding: 10px 20px;
 }
 .magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text .magazin-title {
   font-size: 1vw;
+}
+.magazine-section .gridwrap .grid-box .grid-box__magazine-box:hover {
+  overflow: hidden;
 }
 .magazine-section .gridwrap .grid-box .grid-box__magazine-box:hover .magazin-box__text {
   opacity: 1;
