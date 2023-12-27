@@ -47,14 +47,14 @@
   animation-duration: 0.8s;
   animation-fill-mode: forwards;
 }
-.video-section .title-wrap .title-box .title-box__button {
+.video-section .title-wrap .title-box .title-box__text .title-box__button {
   margin-top: 50px;
   animation-name: fade-in, float;
   animation-timing-function: linear;
   animation-duration: 0.3s;
   animation-fill-mode: forwards;
 }
-.video-section .title-wrap .title-box .title-box__button button {
+.video-section .title-wrap .title-box .title-box__text .title-box__button button {
   font-family: "SUITE-Regular";
   border: 2px solid var(--color-white);
   border-radius: 4px;
@@ -63,8 +63,41 @@
   font-size: 20px;
   padding: 16px 60px;
 }
-.video-section .title-wrap .title-box .title-box__button button:hover {
+.video-section .title-wrap .title-box .title-box__text .title-box__button button:hover {
   background-color: var(--color-white);
   color: var(--color-black);
   cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .video-section .title-wrap .title-box .title-box__text {
+    top: 0%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .video-section .title-wrap .title-box .title-box__text p {
+    font-size: 3vw;
+    animation-name: fade-in, fadeInDown;
+    animation-timing-function: linear;
+    animation-duration: 0.6s;
+    animation-fill-mode: forwards;
+    position: relative;
+    bottom: 50%;
+  }
+  .video-section .title-wrap .title-box .title-box__text h2 {
+    font-family: "SUITE-Regular";
+    font-size: 6vw;
+    animation-name: fade-in, fadeInDown;
+    animation-timing-function: linear;
+    animation-duration: 0.8s;
+    animation-fill-mode: forwards;
+    position: relative;
+    bottom: 65%;
+  }
+  .video-section .title-wrap .title-box .title-box__text .title-box__button {
+    display: flex;
+    animation-name: fade-in, float;
+    animation-timing-function: linear;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
 }/*# sourceMappingURL=video-section.css.map */

@@ -110,4 +110,47 @@
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/magazine_future_of_work_.avif);
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 768px) {
+  .magazine-section {
+    width: 100%;
+    height: 200%;
+  }
+  .magazine-section .textwrap {
+    margin-top: 74px;
+    height: 10%;
+  }
+  .magazine-section .textwrap .text-box .text-box__text p {
+    font-size: 4.5vw;
+    font-weight: 300;
+  }
+  .magazine-section .textwrap .text-box .text-box__text h2 {
+    font-size: 6vw;
+    font-weight: 500;
+    letter-spacing: -1px;
+  }
+  .magazine-section .gridwrap {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  .magazine-section .gridwrap .grid-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    gap: 80px;
+  }
+  .magazine-section .gridwrap .grid-box .grid-box__magazine-box {
+    height: 100%;
+  }
+  .magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text p {
+    font-size: 3vw;
+  }
+  .magazine-section .gridwrap .grid-box .grid-box__magazine-box .magazin-box__text .magazin-title {
+    font-size: 4vw;
+  }
 }/*# sourceMappingURL=magazine-section.css.map */

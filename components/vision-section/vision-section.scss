@@ -16,32 +16,20 @@
         gap: 5%;
         .text-box{
             .text-box__text{
-                p{
+                .sub-text{
                     color: var(--color-black);
                     font-size: 0.9vw;
-                    animation-name: fade-in, float;
-                    animation-timing-function: linear;
-                    animation-duration: 1s;
-                    animation-fill-mode: forwards;
                 }
                 h2{
                     color: var(--color-black);
                     font-size: 2.5vw;
                     font-weight: 700;
                     letter-spacing: -2.5px;
-                    animation-name: fade-in, float;
-                    animation-timing-function: linear;
-                    animation-duration: 1s;
-                    animation-fill-mode: forwards;
                 }
                 }
                 .text-box__button{
                     display: flex;
                     margin: 70px 0;
-                    animation-name: fade-in, float;
-                    animation-timing-function: linear;
-                    animation-duration: 0.5s;
-                    animation-fill-mode: forwards;
                     button{
                         font-family: 'SUITE-Regular';
                         border: 2px solid var(--color-black);
@@ -93,8 +81,53 @@
             }
         }
     }
+    @media screen and (max-width:768px){
+        height: 170%;
+        .text-wrap{
+            width: 100%;
+            height: 100%;
+            top: 10%;
+            .text-box{
+                .text-box__text{
+                    .sub-text{
+                        padding: 0 30px;
+                        font-size: 3vw;
+                    }
+                    h2{
+                        padding: 0 30px;
+                        font-size: 5.4vw;
+                    }
+                    .text-box__button{
+                        padding: 0 30px;
+                    }
+                }
+            }
+            .video-box{
+                flex-direction: column;
+                gap: 10%;
+                align-items: flex-start;
+                .video-box__text{
+                    h2{
+                        padding: 0 30px;
+                        font-size: 5.4vw;
+                    }
+                    p{
+                        padding: 0 30px;
+                        font-size: 3vw;
+                    }
+                }
+                .video-box__iframe{
+                    width: 100%;
+                    iframe{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
 }
 .sub-title{
+    padding: 0 30px;
     font-family: 'SUITE-Regular';
     color: var(--color-black);
     font-size: 18px;

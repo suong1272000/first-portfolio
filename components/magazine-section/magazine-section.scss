@@ -114,8 +114,54 @@
                         background-position: center;
                     }
                 }
+            }               
+        }
+    }
+    @media screen and (max-width:768px){
+        width: 100%;
+        height: 200%;
+        .textwrap{
+            margin-top: 74px;
+            height: 10%;
+            .text-box{
+                .text-box__text{
+                    p{
+                        font-size: 4.5vw;
+                        font-weight: 300;
+                    }
+                    h2{
+                        font-size: 6vw;
+                        font-weight: 500;
+                        letter-spacing: -1px;
+                    }
+                }
             }
-                
+        }
+        .gridwrap{
+            width: 100%;
+            height: 80%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            .grid-box{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                gap: 80px;
+                .grid-box__magazine-box{
+                    height: 100%;
+                    .magazin-box__text{
+                        p{
+                            font-size: 3vw;
+                        }
+                        .magazin-title{
+                            font-size: 4vw;
+                        }
+                    }
+                }
+            }
         }
     }
 }
