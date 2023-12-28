@@ -57,8 +57,18 @@ header{
             cursor: pointer;
             padding-right: 25px;
         }
-        @media screen and (max-width:768px){
+    }
+    @media screen and (max-width:768px){
+        .nav-wrap{  
             .nav-left-list{
+                width: 100%;
+                height: 100vh;
+                background-color: var(--color-black);
+                position: absolute;
+                top: 64px;
+                display: flex;
+                flex-direction: column;
+                padding: 38px 38px;
                 display: none;
             }
             .nav-right-list{

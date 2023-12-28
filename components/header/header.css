@@ -56,10 +56,18 @@ header > .nav-wrap .icon-box {
   padding-right: 25px;
 }
 @media screen and (max-width: 768px) {
-  header > .nav-wrap .nav-left-list {
+  header .nav-wrap .nav-left-list {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--color-black);
+    position: absolute;
+    top: 64px;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 38px;
     display: none;
   }
-  header > .nav-wrap .nav-right-list {
+  header .nav-wrap .nav-right-list {
     display: none;
   }
 }/*# sourceMappingURL=header.css.map */
